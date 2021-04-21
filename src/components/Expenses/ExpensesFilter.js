@@ -1,8 +1,8 @@
 import "./ExpensesFilter.css";
 
-const ExpensesFilter = ({ selected, onYearChange }) => {
+const ExpensesFilter = ({ selected, onChangeFilter }) => {
   const changeHandler = (event) => {
-    onYearChange(event.target.value);
+    onChangeFilter(event.target.value);
   };
 
   return (

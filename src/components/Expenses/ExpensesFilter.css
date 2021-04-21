@@ -1,0 +1,41 @@
+.expenses-filter {
+    color: white;
+    padding: 0 1rem;
+}
+
+.expenses-filter__control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.expenses-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.expenses-filter select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+select {
+    appearance: none;
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+    outline: none;
+}
