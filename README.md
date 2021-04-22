@@ -2,9 +2,9 @@
 
 This project was created for fun to learn react.
 
-## Functionalities
+## Features
 
-### Add expenses
-### Filter expenses by year
-### Filter view with bars by month
+- Add expenses
+- Filter expenses by year
+- Filter view with bars by month
 
